@@ -76,3 +76,35 @@
 
 5. **Manage Your Instance:**
    - Once connected via `SSH`, you can manage your EC2 instance by executing commands, uploading/downloading files, configuring software, etc.
+     
+
+## Most Used AWS CLI commands to fetch resources and create resources
+
+### General
+
+- `aws configure` - Set up AWS credentials and region
+- `aws sts get-caller-identity` - Get current user identity
+
+### S3
+
+- `aws s3 ls` - List buckets
+- `aws s3 mb <bucket_name>` - Create a bucket
+- `aws s3 rm <bucket_name>` - Delete a bucket
+- `aws s3 cp <file> s3://<bucket_name>/<key>` - Upload file to S3
+- `aws s3 sync <local_dir> s3://<bucket_name>/<prefix>` - Sync local directory with S3
+
+### EC2
+
+- `aws ec2 describe-instances` - List instances
+- `aws ec2 run-instances <image_id>` - Launch an instance
+- `aws ec2 stop-instances <instance_id>` - Stop an instance
+- `aws ec2 start-instances <instance_id>` - Start an instance
+- `aws ec2 terminate-instances <instance_id>` - Terminate an instance
+
+### IAM
+
+- `aws iam list-users` - List users
+- `aws iam create-user <user_name>` - Create a user
+- `aws iam list-roles` - List roles
+- `aws iam create-role <role_name>` - Create a role
+

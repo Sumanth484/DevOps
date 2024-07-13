@@ -1,6 +1,6 @@
 # AWS EC2 creation Manual and using AWS CLI
 
-### Manual EC2 Instance Creation Steps:
+## Manual EC2 Instance Creation Steps:
 
 1. **Log in to AWS Console:**
    - Open your web browser and navigate to the AWS Management Console.
@@ -34,7 +34,7 @@
    - Click "Launch" and select or create a key pair to securely connect to your instance.
    - 
 
-### Automated EC2 Instance Creation Steps using AWS CLI:
+## Automated EC2 Instance Creation Steps using AWS CLI:
 
 1. **Install AWS CLI:**
    - Download and install AWS CLI on your local machine. Follow the installation instructions provided by AWS for your operating system.
@@ -54,7 +54,7 @@
    - Specify parameters such as `AMI` ID, instance type, subnet ID, security group IDs, etc., within your script.
    - Monitor the output for any errors or confirm successful instance creation.
 
-### SSH Connection Steps to EC2 Instance:
+## SSH Connection Steps to EC2 Instance:
 
 1. **Prepare SSH Key Pair:**
    - Ensure you have an `SSH` key pair (`.pem` file) created either during instance launch (for manual creation) or beforehand (for automated creation).

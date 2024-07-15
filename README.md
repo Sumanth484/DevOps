@@ -7,10 +7,12 @@ Welcome to my day-wise learnings repository! Here, I document my daily progress 
 
 Each day's learning is organized into its own directory or file, categorized by topic or date. Below is a brief overview of what you can find:
 
-- **Day 1**: Description of what you learned, key takeaways, and any code snippets or examples.
-- **Day 2**: Further insights, challenges faced, and solutions discovered.
-- **Day 3**: Continuing the journey with new concepts or applications.
-- ...
+- **Day 1**: Basics of DevOps.
+- **Day 2**: Understanding Servers and Architecture of Operating System.
+- **Day 3**: AWS Cloud and AWS CLI.
+- **Day 4**: Shell Scripting.
+- **Day 5**: Version Control Systems.
+- **Day 6**: Networking Basics.
 
 ## Topics Covered
 

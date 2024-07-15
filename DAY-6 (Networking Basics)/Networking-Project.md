@@ -80,7 +80,10 @@
     - **Tasks**:
       - Use `SSH` to connect to each `EC2 instance`.
       - Create a folder with different names in two instances (or) Navigate to the directory where your web files are located.
-      - Run the `Python HTTP server`: ```python3 -m http.server```.
+      - Run the `Python HTTP server`: ```sudo python3 -m http.server```.
+
+   ![web1-traffic](https://github.com/user-attachments/assets/5bfbb387-f11a-4fd5-bdd5-22cfda0afe3e)
+
 
 12. **Access the server using the load balancer DNS name**
 
@@ -88,4 +91,12 @@
       - Copy the `DNS name` of your `load balancer` from the `AWS Management Console`.
       - Open a web browser and navigate to the `DNS name` (e.g., `http://your-load-balancer-dns-name/`).
       - Verify that you can access the `directory structure` served by the `Python HTTP server` running on your `EC2 instances` and observe the `load balancing`.
+
+You can observe in below images the same `load balancer` is being used and `routing traffic` to both `instances`.
+
+![web1](https://github.com/user-attachments/assets/90ae18d4-7416-4ceb-866b-b148f91a85a4)
+
+![web2](https://github.com/user-attachments/assets/05242115-66fb-40ac-8a1e-b11e8e3ca8dc)
+
+
 

@@ -1,4 +1,5 @@
 # DevOps
+
 # Day-wise Learnings Repository
 
 Welcome to my day-wise learnings repository! Here, I document my daily progress and learnings across various topics related to DevOps. This repository serves as a resource to help others learn alongside me.
@@ -14,16 +15,6 @@ Each day's learning is organized into its own directory or file, categorized by 
 - **Day 5**: Version Control Systems.
 - **Day 6**: Networking Basics.
 
-## Topics Covered
-
-Throughout this repository, you'll find information on:
-
-- Git and version control
-- Kubernetes and container orchestration
-- AWS and cloud infrastructure
-- Programming languages like Python, Java, and JavaScript
-- DevOps practices and tools like Jenkins, Ansible, and Terraform
-- Web development frameworks and libraries
 
 ## How to Use
 

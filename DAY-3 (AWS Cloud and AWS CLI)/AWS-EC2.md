@@ -54,6 +54,10 @@
    - Specify parameters such as `AMI` ID, instance type, subnet ID, security group IDs, etc., within your script.
    - Monitor the output for any errors or confirm successful instance creation.
 
+### Below is the Architecture of AWS CLI 
+
+![image](https://github.com/user-attachments/assets/1b5ecd45-8bcc-4f92-909c-92fbfbd48b41)
+
 ## SSH Connection Steps to EC2 Instance:
 
 1. **Prepare SSH Key Pair:**

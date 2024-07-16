@@ -1,4 +1,9 @@
-# AWS Networking Project Setup Steps
+# AWS Networking Project Setup Steps.
+
+We will be creating the below Architecture Diagram to understand the Networking core concepts.
+
+![image](https://github.com/user-attachments/assets/bb387c9d-481a-40e3-b3ac-18072db9cbab)
+
 
 1. **Create VPC by assigning CIDR**
 

@@ -1,4 +1,4 @@
-# 🌟 Unleashing the Power of Docker: My Containerization Journey! 🌟
+# 🌟 Unleashing the Power of Docker: My Containerization Journey!
 
 Hey LinkedIn fam! 🌟 Today, I took my first steps into the world of Docker, and I’m thrilled to share what I’ve learned so far. Here’s a quick rundown of the essential concepts and why containerization is a game-changer! 🎉
 
@@ -44,23 +44,28 @@ A `container` is a lightweight, portable, and self-sufficient unit that encapsul
 1. **Build:**
    - Create a `Docker image` using a `Dockerfile`.
    - **Example:** Writing a `Dockerfile` that specifies the base image, application dependencies, and commands to run the application.
-     
+
+
    ```sh
+   
    docker build -t <image-name>:<tag> <path-to-Dockerfile>
+   
    ```
 
-2. **Ship:**
+1. **Ship:**
    - Share the `Docker image` through a `Docker registry` (e.g., Docker Hub, AWS ECR, Google Container Registry).
    - **Example:** Pushing the built image to Docker Hub.
-     
+
+   
    ```sh
    docker login 
    docker push <image-name>:<tag>
    ```
 
-3. **Run:**
+2. **Run:**
    - Deploy and run `containers` from the `Docker image`.
    - **Example:** Running a container from the pushed image.
+
      
    ```sh
    docker pull <image-name>:<tag>

@@ -2,17 +2,18 @@
 
 Hey LinkedIn fam! 🌟 Today, I took my first steps into the world of Docker, and I’m thrilled to share what I’ve learned so far. Here’s a quick rundown of the essential concepts and why containerization is a game-changer! 🎉
 
-### What is Docker? 🐳
+## What is Docker? 🐳
 `Docker` is an open-source platform designed to automate the deployment, scaling, and management of applications. Docker allows developers to package applications along with their dependencies into `containers`, ensuring consistency across multiple environments, from development to production.
 
 - **Example:** Imagine you have a web application that relies on a specific version of Python and certain libraries. Docker can package your application, the specific Python version, and all required libraries into a single container, making it easy to run the application anywhere Docker is supported.
 
-### What is a Container? 📦
+## What is a Container? 📦
 A `container` is a lightweight, portable, and self-sufficient unit that encapsulates an application and all its dependencies, including libraries, binaries, and configuration files. Containers share the host operating system's kernel but operate in isolated environments, ensuring that each container runs independently.
 
 - **Example:** If you have multiple microservices running different versions of Node.js, each microservice can be containerized with its specific Node.js version and dependencies. This ensures that changes in one microservice do not affect others.
 
-### How Virtual Machines are Different from Containers? 🖥️ vs. 📦
+## How Virtual Machines are Different from Containers? 🖥️ vs. 📦
+
 **Virtual Machines (VMs):**
 - **Architecture:** Each VM includes a full operating system (OS), hypervisor, and application, resulting in higher resource usage.
 - **Isolation:** Provides strong isolation as each VM runs a separate OS.
@@ -29,7 +30,7 @@ A `container` is a lightweight, portable, and self-sufficient unit that encapsul
   - **VM:** Running three applications in VMs would require three instances of an OS, resulting in high resource consumption.
   - **Container:** Running three applications in containers would share the host OS kernel, significantly reducing resource usage and startup time.
 
-### Advantages of Containerization 🌐
+## Advantages of Containerization 🌐
 1. **Portability:** Containers can run consistently across different environments, from a developer's laptop to on-premises data centers to public clouds.
 2. **Efficiency:** Containers are lightweight and share the host OS kernel, leading to better resource utilization compared to VMs.
 3. **Scalability:** Containers can be easily scaled up or down, allowing for flexible and efficient resource management.
@@ -38,7 +39,7 @@ A `container` is a lightweight, portable, and self-sufficient unit that encapsul
 
 - **Example:** A company can develop and test a web application on a developer's laptop, deploy it to a staging environment, and then push it to production without worrying about environmental inconsistencies, thanks to containerization.
 
-### Docker Lifecycle 🔄
+## Docker Lifecycle 🔄
 
 1. **Build:**
    - Create a `Docker image` using a `Dockerfile`.
@@ -66,7 +67,7 @@ A `container` is a lightweight, portable, and self-sufficient unit that encapsul
    docker run [OPTIONS] <image-name>:<tag>
    ```
 
-### Keywords in Docker 📚
+## Keywords in Docker 📚
 
 - **`Dockerfile`:** A text file containing instructions on how to build a `Docker image`. Each instruction in the `Dockerfile` creates a layer in the image.
 - **`Image`:** A read-only template used to create `containers`. `Images` are built from `Dockerfiles` and stored in a `Docker registry`.

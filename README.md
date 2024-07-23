@@ -14,6 +14,8 @@ Each day's learning is organized into its own directory or file, categorized by 
 - **Day 4**: Shell Scripting.
 - **Day 5**: Version Control Systems.
 - **Day 6**: Networking Basics.
+- **Day 7**: Static Website Deployment.
+- **Day 8**: Configuration Management with Ansible.
 
 
 ## How to Use

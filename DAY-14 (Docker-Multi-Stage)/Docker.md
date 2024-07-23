@@ -18,8 +18,6 @@ sudo usermod -aG docker ubuntu
 
 Clone the repo and navigate to dockerfile.
 
-Include your host IP address in ALLOWED_HOSTS in myproject/myapp/settings.py
-
 Execute the below command to build image.
 
 ```sh

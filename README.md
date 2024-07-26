@@ -16,6 +16,15 @@ Each day's learning is organized into its own directory or file, categorized by 
 - **Day 6**: Networking Basics.
 - **Day 7**: Static Website Deployment.
 - **Day 8**: Configuration Management with Ansible.
+- **Day 9**: Ansible Playbooks
+- **Day 10**: Ansible Roles
+- **Day 11**: Ansible Collection and vault
+- **Day 12**: Docker Basics
+- **Day 13**: Building and pushing Python-Django Web Application
+- **Day 14**: Multi-Stage Docker builds
+- **Day 15**: Docker Volumes and Docker Networking
+- **Day 16**: Docker Compose
+- **Day 17**: CI Basics and Jenkins First pipeline
 
 
 ## How to Use

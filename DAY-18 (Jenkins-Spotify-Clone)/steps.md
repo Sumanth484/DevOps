@@ -1,9 +1,9 @@
-## 1. **Developed the Web Application**
+1. ## **Developed the Web Application**
 
     - **Crafting the Frontend**: Utilized `HTML` for the structure, `CSS` for styling, and `JavaScript` for interactivity to create a user-friendly Spotify-Clone interface.
     - **UI Design**: Focused on creating a visually appealing design that mimics the look and feel of `Spotify`, ensuring a smooth user experience.
 
-## 2. **Dockerized the Application**
+2. ## **Dockerized the Application**
 
     - **Creating a Dockerfile**: Wrote a `Dockerfile` to containerize the web application. This Dockerfile includes instructions to:
         - **Set up the base image**: Used the official `Nginx` image as the base.
@@ -20,7 +20,7 @@
    
     - **Deploying on Nginx**: Configured `Nginx` to serve the web application, ensuring it runs smoothly within the container environment.
 
-## 3. **Automated with Jenkins**
+3. ## **Automated with Jenkins**
 
     - **Setting Up Jenkins**: Configured a `Jenkins` server to manage the `CI/CD` pipeline.
     - **Pipeline Creation**: Designed a `Jenkins pipeline` to automate the following stages:
